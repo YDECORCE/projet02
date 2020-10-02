@@ -3,6 +3,7 @@ body{
     background-color: #2b2b2b;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    color: #edede2;
 }
 h1{
     color: #f7c19f;
@@ -33,7 +34,7 @@ p{
   }
  
   .logo {
-    position: sticky;
+    position: absolute;
     text-align: center;
     z-index: 1000;
     height: 200px;
@@ -42,10 +43,14 @@ p{
     -o-transition: all ease-out .5s;
     transition: all ease-out .5s;
   }
-  .active {
+  .active_header {
     background-color: rgba(43,43,43,1);
     height : 135px;
   }
   .active_logo {
         height : 100px;
+  }
+  nav{
+    position: absolute;
+    z-index: 1100px;
   }
