@@ -1,0 +1,51 @@
+
+body{
+    background-color: #2b2b2b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+h1{
+    color: #f7c19f;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 6vw;
+}
+h2{
+    color: #f1b459;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4vw;
+}
+p{
+    color: #edede2;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.header {
+    position: fixed;
+      z-index: 900;
+      height: 240px;
+    width: 100%; 
+      background: rgba(43,43,43,0);
+      padding: 18px;
+      -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+  }
+ 
+  .logo {
+    position: sticky;
+    text-align: center;
+    z-index: 1000;
+    height: 200px;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+  }
+  .active {
+    background-color: rgba(43,43,43,1);
+    height : 135px;
+  }
+  .active_logo {
+        height : 100px;
+  }
