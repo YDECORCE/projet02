@@ -8,12 +8,13 @@ body{
 h1{
     color: #f7c19f;
     font-family: 'Baloo Tammudu 2', cursive;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 h2{
     color: #f1b459;
     font-family: 'Bebas Neue', cursive;
-    font-size: 4vw;
+    font-size: 3vw;
+    text-align: center;
 }
 h3{
   color: #edede2;
@@ -68,3 +69,23 @@ p{
     color: #edede2;
     border-color: rgb(216,84,17);
   }
+  .overlay {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #2b2b2b;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .real:hover .overlay {
+    opacity: 0.8;
+  }
+  
