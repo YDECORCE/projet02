@@ -90,3 +90,8 @@ p{
     transition: .5s ease;
   }
   .hide-me[aria-expanded="true"] {display: none;}
+  
+  .dejeuner{
+    background-image:url("../img/coffee-4026902_1920.jpg");
+    background-size: cover;
+  }
