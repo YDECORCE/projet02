@@ -78,7 +78,7 @@ p{
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 1.5s ease;
     background-color: #2b2b2b;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -87,5 +87,6 @@ p{
   
   .real:hover .overlay {
     opacity: 0.8;
+    transition: .5s ease;
   }
   .hide-me[aria-expanded="true"] {display: none;}
