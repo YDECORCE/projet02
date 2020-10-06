@@ -196,7 +196,7 @@
     <section id="bar" style="margin-top: 100px; margin-bottom: 100px;">
         <div class="container-fluid">
             <div class="row w-100 mx-0">
-                <div class="col-12 col-sm-6 col-lg-4 px-0 order-last order-sm-first">
+                <div class="col-12 col-md-6 col-lg-4 px-0 order-last order-md-first">
                     <img src="img/Bar1.png" alt="bar" title="bar" style="width:100%">
                 </div>
                 <div class="col-12 col-sm-6 col-lg-8 order-first">
@@ -216,9 +216,62 @@
     </section>
     <section id="Petit_dej" style="margin-top: 100px; margin-bottom: 100px;">
         <h1 style="text-align: center;"> Le petit Déj'</h1>
-        <div class="container dejeuner" style="min-height: 950px;">
-
+        <div class="container dejeuner p-0" style="min-height: 840px;">
+            <div class="row justify-content-center m-0 text-center" style="min-height: 420px;">
+                <div class="col-12 col-sm-6 formule_dej m-0 p-5 d-flex w-100 align-items-center " >
+                    <div class="text-center w-100" >
+                    <h2 class="mb-5">Boissons chaudes au choix</h2>
+                    <p class="my-5">Café, Chocolat, Thé, Latté macchiato</p>
+                    <h2 class="mt-5">2,95€</h2>
+                </div>
+                </div>
+            </div>
+            <div class="row w-100 justify-content-between align-items-center m-0" style="min-height: 420px;">
+                <div class="col-12 col-sm-3 formule_dej m-0 p-5 d-flex w-100 align-items-center" >
+                    <div class="text-center w-100" >
+                        <h2 class="mb-5">Formule</h2>
+                        <p class="my-5">Boisson chaude Croissant</p>
+                        <h2 class="mt-5">4,95€</h2>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 formule_dej m-0 p-5 d-flex w-100 align-items-center" >
+                    <div class="text-center w-100" >
+                        <h2 class="mb-5">Formule</h2>
+                        <p class="my-5">Boisson chaude Croissant <br>Jus de fruits</p>
+                        <h2 class="mt-5">6,95€</h2>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+    <div class="row w-100 justify-content-center mt-5">
+        <button type="button" class="btn hide-me" data-toggle="collapse" data-target="#Reservation">Réservez votre repas</button></div>
+    <section id="Reservation" class="collapse"> 
+        <div class="container d-flex" style="min-width: height 500px">
+            <div class="row w-100 align-items-center justify-content-center mx-auto">
+              <div class="col-12 col-sm-8 mx-auto">
+                <form class="form-group">
+                  <div class="row ">
+                    <div class="col-12 col-sm-6 py-3">
+                      <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="col-12 col-sm-6 py-3">
+                      <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="col-12 py-3">
+                      <input type="text" class="form-control" placeholder="Your Title">
+                    </div>
+                    <div class="col-12 py-3">
+                      <textarea class="form-control" placeholder="Your Comment" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 py-3 text-center">
+                      <button type="submit" class="btn btn-lg btn_submit">SEND MESSAGE</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
     </section>
 </body>
 

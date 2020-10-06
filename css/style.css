@@ -94,4 +94,11 @@ p{
   .dejeuner{
     background-image:url("../img/coffee-4026902_1920.jpg");
     background-size: auto;
+    background-position: center;
+  }
+  .formule_dej{
+    background-color: #2b2b2b;
+    opacity: 0.8;
+    padding:0px;
+    min-height: 420px;
   }
