@@ -106,6 +106,10 @@ p{
     
     min-height: 420px;
   }
+.alignement_menu{
+  justify-content: space-between;
+}
+
   /*PARTIE MEDIAS QUERIES */
 /*MOBILE */
 @media (max-width: 767px) {
@@ -122,6 +126,9 @@ p{
 .row_formule{
   min-height: 280px;
 }
+.alignement_menu{
+  justify-content: end;
+
 }
 
 /*TABLETTE -> PETIT ECRAN ORDI */
