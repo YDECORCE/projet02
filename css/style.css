@@ -111,6 +111,11 @@ p{
   justify-content: space-between;
 }
 
+.bgfooter{
+  background-image: url(../img/footer_burger.jpg);
+  
+}
+
   /*PARTIE MEDIAS QUERIES */
 /*MOBILE */
 @media (max-width: 767px) {
