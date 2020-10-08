@@ -115,6 +115,19 @@ p{
   background-image: url(../img/footer_burger.jpg);
   
 }
+a
+{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.plan_footer{
+  padding-bottom: 10px;
+}
 
   /*PARTIE MEDIAS QUERIES */
 /*MOBILE */
