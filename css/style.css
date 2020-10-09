@@ -71,7 +71,10 @@ p{
     color: #edede2;
     border-color: rgb(216,84,17);
   }
-
+.btn:hover{
+  color: #edede2;
+  font-weight: bold;
+}
 
 
   .overlay {
