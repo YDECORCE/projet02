@@ -28,8 +28,8 @@
 </head>
 
 <body>
-    <script src="js/script.js"></script>
-    <div class="header px-0" style="right: 0px;">
+    <script src="js/script.js"></script> <!--Appel fichier JS effet de zoom arrière-->
+    <div class="header px-0" style="right: 0px;"> <!--Header fixed + navbar-->
         <div class="container-fluid d-flex justify-content-lg-center  justify-content-sm-left px-0">
             <img class="logo" src="img/logo.jpg" alt="logo" title="logo">
         </div>
@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <section id="home">
+    <section id="home"> <!--Carousel photos doublé pour avoir un bon rendu responsive-->
 
         <div class="container-fluid px-0 mb-5 d-none d-sm-block">
             <!--carousel web-->
@@ -127,13 +127,13 @@
             </div>
         </div>
     </section>
-    <section id="Burgers" style="padding-top: 100px;">
+    <section id="Burgers" style="padding-top: 100px;"> <!--Section burgers-->
         <div class="container d-flex justify-content-center mt-5">
             <h1>
                 Découvrez nos burgers
             </h1>
         </div>
-        <div class="container d-relative" style="min-height: 300px;">
+        <div class="container d-relative" style="min-height: 300px;"> <!--Présenattion burgers avec overlay nom composition prix-->
             <div class="row w-100 mx-0">
                 <div class="col-12 col-md-4 real">
                     <img class="img-fluid " src="img/oignons.png" alt="Classique" title="classique">
@@ -171,10 +171,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row w-100 justify-content-center mx-0 mt-4">
-                    <button type="button" class="btn hide-me" data-toggle="collapse" data-target="#moreburger">Plus de
-                        burgers</button></div>
-                <div id="moreburger" class="collapse">
+                <div class="row w-100 justify-content-center mx-0 mt-4"> <!--Bouton plus de burgers affichage de la partie colapsée-->
+                    <button type="button" class="btn hide-me" data-toggle="collapse" data-target="#moreburger">Plus de burgers</button></div> <!-- class Hide-me fait disparaitre le bouton une fois cliqué-->
+                <div id="moreburger" class="collapse"> <!-- codage de la partie colapsée-->
                     <div class="row w-100 mx-0">
                         <div class="col-12 col-md-4 real">
                             <img class="img-fluid " src="img/kebab.png" alt="Montagnard" title="Montagnard">
@@ -237,10 +236,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <section id="bar" style="padding-top: 150px;">
+    <section id="bar" style="padding-top: 150px;"> <!--Section bar avec modification de l'ordre des div en fonction du format de l'écran-->
         <div class="container-fluid">
             <div class="row w-100 mx-0">
                 <div class="col-12 col-md-6 col-lg-4 px-0 order-last order-md-first">
@@ -267,7 +265,7 @@
             </div>
         </div>
     </section>
-    <section id="Petit_dej" style="padding-top: 150px;">
+    <section id="Petit_dej" style="padding-top: 150px;"> <!-- Section petit déj avec utilisation médiaqueries pour modifier l'affichage des formules-->
         <h1 style="text-align: center;"> Le petit Déj'</h1>
         <div class="container dejeuner p-0" style="min-height: 840px;">
             <div class="row justify-content-center m-0 text-center row_formule">
@@ -297,7 +295,7 @@
             </div>
         </div>
     </section>
-    <section id="Reservation" style="padding-top: 150px;">
+    <section id="Reservation" style="padding-top: 150px;"> <!--formulaire de réservation-->
         <div class="container" style="min-height:500px">
             <h1> Réservez votre repas</h1>
             <div class="row w-100 align-items-center justify-content-center mx-0">
@@ -358,8 +356,8 @@
                 <div class="col-12 col-lg-6" style="min-height: 300px;">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2737.8861384507204!2d5.551161015848547!3d46.66850906029786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478cd78d87b0768b%3A0x6dc52ab5581eb62b!2s2%20Route%20de%20Montaigu%2C%2039000%20Lons-le-Saunier!5e0!3m2!1sfr!2sfr!4v1601995441307!5m2!1sfr!2sfr"
-                        width="100%" height="75%" frameborder="0" style="border:0;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                        width="100%" height="75%"  style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0" title="plan Lons le Saunier"></iframe>
                 </div>
                 <div class="col-12 col-lg-6 px-5">
                     <div class="w-100">
